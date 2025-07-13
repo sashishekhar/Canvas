@@ -7,7 +7,7 @@ import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 
 // Import Excalidraw CSS — THIS IS CRUCIAL!
-import "@excalidraw/excalidraw/index.css";
+
 
 // Dynamically import Excalidraw client-side only
 const Excalidraw = dynamic(

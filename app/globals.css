@@ -1,9 +1,10 @@
-@import "tailwindcss";
+
 @import "tw-animate-css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 h2.ce-header{
   @apply text-3xl font-bold
@@ -189,10 +190,9 @@ h6.ce-header{
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
-  }
+  
   body {
-    @apply bg-background text-foreground;
+   @apply bg-white outline-gray-400/50;
+
   }
 }
